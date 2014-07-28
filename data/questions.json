@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "question": "Why is AngularJS name AngularJS?",
+        "option1": "It sounds cool.",
+        "option2": "It describes HTML brackets.",
+        "option3": "The author had a habit of holding his head at angle while coding.",
+        "option4": "It approaches JavaScript from a different angle.",
+        "answer": "2"
+    },
+    {
+        "id": 2,
+        "question": "Why does AngularJS use the namespace ng?",
+        "option1": "It stands for 'n gage' (engage).",
+        "option2": "It's the initials of the original author.",
+        "option3": "It stands for 'next generation' javascript.",
+        "option4": "It sounds like angular.",
+        "answer": "4"
+    }
+
+]
