@@ -1,4 +1,4 @@
-var triviaApp = angular.module('triviaApp', ['triviaControllers', 'ngRoute']);
+var triviaApp = angular.module('triviaApp', ['triviaControllers', 'ngRoute', 'ngAnimate']);
 
 triviaApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.

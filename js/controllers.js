@@ -3,6 +3,11 @@ var triviaControllers = angular.module('triviaControllers', ['firebase', 'trivia
 triviaControllers.controller('QuestionListCtrl', ['$scope', 'FirebaseService', function($scope, FirebaseService) {
     $scope.questions = FirebaseService.getQuestions();
 
+    $scope.answerQuestion = function(question, selectedAnswer) {
+        question.answered = true;
+        question.correct = (question.answer === selectedAnswer);
+    };
+
     $scope.deleteQuestion = function(questionId) {
         $scope.questions.$remove(questionId);
     };
