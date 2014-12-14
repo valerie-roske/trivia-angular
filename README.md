@@ -1,4 +1,4 @@
-AngularQuestionnaire
+trivia-angular
 ====================
 
-Questionnaire/Trivia app in AngularJS
+trivia app in AngularJS
